@@ -1,4 +1,4 @@
-package programmers;
+package programmers.lv1;
 
 public class 짝수문자열반환 {
 
@@ -25,22 +25,16 @@ qwer	we
 
 	public static String solution(String s) {
 		String answer = "";
-		System.out.println(s.length());
 		double len = s.length()/2.0;
-		System.out.println(len);
 		int a = (int) Math.ceil(len);
 		
-		System.out.println(a);
 		if (s.length()%2 == 0) {
 			// 짝수
 			answer = s.substring(a-1, a+1);
-			System.out.println(s + "짝수==>" + answer);
 		} else {
 			// 홀수
 			answer = s.substring(a-1, a);
-			System.out.println(s + "홀수==>" + answer);
 		}
-		System.out.println(answer);
 		
 		return answer;
 	}

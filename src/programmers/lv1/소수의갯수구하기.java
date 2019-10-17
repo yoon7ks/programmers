@@ -1,4 +1,4 @@
-package programmers;
+package programmers.lv1;
 
 public class 소수의갯수구하기 {
 
